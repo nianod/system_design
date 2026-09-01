@@ -18,23 +18,27 @@ This repository serves as a complete reference for system design, covering every
 
 ## Repository Structure
 
+Folders are numbered in the recommended study order — start at `01-` and work down to `11-`:
+
 ```
 system_design/
-├── api-gateways/          # API Gateway patterns and implementations
-├── caching/               # Caching strategies and architectures
-├── case-studies/          # Real-world system design examples
-├── databases/             # Database design and scaling
-├── infrastructure/        # Infrastructure and deployment
-├── interviews/            # Interview preparation guides
-├── microservices/         # Microservices architecture
-├── scalability/           # Scaling strategies and patterns
-├── security/              # Security best practices
+├── 01-architecture-patterns/  # Foundational architectural styles
+├── 02-databases/              # Database design and scaling
+├── 03-api-gateways/           # API Gateway patterns and implementations
+├── 04-caching/                # Caching strategies and architectures
+├── 05-microservices/          # Microservices architecture
+├── 06-scalability/            # Scaling strategies and patterns
+├── 07-infrastructure/         # Infrastructure and deployment
+├── 08-observability/          # Logging, metrics, tracing, alerting
+├── 09-security/               # Security best practices
+├── 10-case-studies/           # Real-world system design examples
+├── 11-interviews/             # Interview preparation guides
 └── frontend_system_design_overview.md
 ```
 
 ## Core Topics
 
-### 🚪 [API Gateways](./api-gateways/)
+### 🚪 [03. API Gateways](./03-api-gateways/)
 
 Learn about API Gateway patterns, routing, security, and scaling strategies.
 
@@ -48,7 +52,7 @@ Learn about API Gateway patterns, routing, security, and scaling strategies.
 - Scaling techniques
 - Pros and cons analysis
 
-### 💾 [Caching](./caching/)
+### 💾 [04. Caching](./04-caching/)
 
 Master caching strategies to improve performance and reduce latency.
 
@@ -60,7 +64,7 @@ Master caching strategies to improve performance and reduce latency.
 - Distributed caching
 - Setup and configuration
 
-### 🗄️ [Databases](./databases/)
+### 🗄️ [02. Databases](./02-databases/)
 
 Deep dive into database design, selection, and optimization.
 
@@ -72,41 +76,41 @@ Deep dive into database design, selection, and optimization.
 - CAP theorem
 - Database scaling
 
-### 📈 [Scalability](./scalability/)
+### 📈 [06. Scalability](./06-scalability/)
 
 Comprehensive guide to building scalable systems.
 
 **Key Topics:**
 
-- [Horizontal Scaling](./scalability/horizontal_scaling.md)
-- [Vertical Scaling](./scalability/vertical_scaling.md)
-- [Load Balancing](./scalability/load_balancing.md)
-- [Auto Scaling](./scalability/auto_scaling.md)
-- [Database Scaling](./scalability/database_scaling.md)
-- [Caching Strategies](./scalability/caching_strategies.md)
-- [Message Queues](./scalability/message_queues.md)
-- [Eventual Consistency](./scalability/eventual_consistency.md)
-- [Cost Scaling](./scalability/cost_scaling.md)
-- [Best Practices](./scalability/best_practises.md)
+- [Vertical Scaling](./06-scalability/01-vertical_scaling.md)
+- [Horizontal Scaling](./06-scalability/02-horizontal_scaling.md)
+- [Load Balancing](./06-scalability/03-load_balancing.md)
+- [Auto Scaling](./06-scalability/04-auto_scaling.md)
+- [Database Scaling](./06-scalability/05-database_scaling.md)
+- [Caching Strategies](./06-scalability/06-caching_strategies.md)
+- [Message Queues](./06-scalability/07-message_queues.md)
+- [Eventual Consistency](./06-scalability/08-eventual_consistency.md)
+- [Cost Scaling](./06-scalability/09-cost_scaling.md)
+- [Best Practices](./06-scalability/10-best_practises.md)
 
-### 🔒 [Security](./security/)
+### 🔒 [09. Security](./09-security/)
 
 Essential security patterns and practices for distributed systems.
 
 **Key Topics:**
 
-- [Authentication](./security/authentication.md)
-- [Authorization](./security/authorization.md)
-- [Encryption](./security/encryption.md)
-- [Network Security](./security/network_security.md)
-- [Application Security](./security/application_security.md)
-- [Data Security](./security/data_security.md)
-- [Compliance](./security/compliance.md)
-- [Monitoring & Auditing](./security/monitoring_auditing.md)
-- [Best Practices](./security/best_practises.md)
-- [Case Studies](./security/case-studies/)
+- [Authentication](./09-security/01-authentication.md)
+- [Authorization](./09-security/02-authorization.md)
+- [Encryption](./09-security/03-encryption.md)
+- [Network Security](./09-security/04-network_security.md)
+- [Application Security](./09-security/05-application_security.md)
+- [Data Security](./09-security/06-data_security.md)
+- [Compliance](./09-security/07-compliance.md)
+- [Monitoring & Auditing](./09-security/08-monitoring_auditing.md)
+- [Best Practices](./09-security/09-best_practises.md)
+- [Case Studies](./09-security/10-case-studies/)
 
-### 🎯 [Interviews](./interviews/)
+### 🎯 [11. Interviews](./11-interviews/)
 
 Prepare for system design interviews with structured frameworks and practice questions.
 
@@ -118,7 +122,7 @@ Prepare for system design interviews with structured frameworks and practice que
 - Practice questions
 - Engineer interview guide
 
-### 🔧 [Microservices](./microservices/)
+### 🔧 [05. Microservices](./05-microservices/)
 
 Patterns and practices for microservices architecture.
 
@@ -138,25 +142,25 @@ System design principles for frontend applications.
 
 ### For Interview Preparation
 
-1. Start with the [Interview Guide](./interviews/README.md)
-2. Review the [Interview Process Framework](./interviews/docs/interview-process-framework/)
-3. Practice with [Estimation Techniques](./interviews/docs/estimation-techniques/)
-4. Work through [Practice Questions](./interviews/docs/practise-questions/)
+1. Start with the [Interview Guide](./11-interviews/README.md)
+2. Review the [Interview Process Framework](./11-interviews/docs/01-interview-process-framework/)
+3. Practice with [Estimation Techniques](./11-interviews/docs/02-estimation-techniques/)
+4. Work through [Practice Questions](./11-interviews/docs/04-practise-questions/)
 
 ### For Learning System Design
 
-1. Understand [Scalability Fundamentals](./scalability/)
-2. Learn [Caching Strategies](./caching/)
-3. Study [Database Design](./databases/)
-4. Explore [Security Best Practices](./security/)
-5. Review [Real-world Case Studies](./case-studies/)
+1. Understand [Scalability Fundamentals](./06-scalability/)
+2. Learn [Caching Strategies](./04-caching/)
+3. Study [Database Design](./02-databases/)
+4. Explore [Security Best Practices](./09-security/)
+5. Review [Real-world Case Studies](./10-case-studies/)
 
 ### For Building Systems
 
-1. Review [Architecture Patterns](./api-gateways/docs/architecture.md)
-2. Implement [Security Best Practices](./security/best_practises.md)
-3. Apply [Scalability Patterns](./scalability/best_practises.md)
-4. Set up [Monitoring](./api-gateways/docs/monitoring.md)
+1. Review [Architecture Patterns](./03-api-gateways/docs/01-architecture.md)
+2. Implement [Security Best Practices](./09-security/09-best_practises.md)
+3. Apply [Scalability Patterns](./06-scalability/10-best_practises.md)
+4. Set up [Monitoring](./03-api-gateways/docs/07-monitoring.md)
 
 ## System Design Process
 
@@ -391,15 +395,15 @@ graph TB
 
 ### Internal Documentation
 
-- [API Gateway Documentation](./api-gateways/README.md)
-- [Caching Guide](./caching/README.md)
-- [Scalability Guide](./scalability/README.md)
-- [Security Guide](./security/README.md)
-- [Interview Prep](./interviews/README.md)
+- [API Gateway Documentation](./03-api-gateways/README.md)
+- [Caching Guide](./04-caching/README.md)
+- [Scalability Guide](./06-scalability/README.md)
+- [Security Guide](./09-security/README.md)
+- [Interview Prep](./11-interviews/README.md)
 
 ### Case Studies
 
-Explore real-world examples in the [case-studies](./case-studies/) directory and [security case studies](./security/case-studies/).
+Explore real-world examples in the [case-studies](./10-case-studies/) directory and [security case studies](./09-security/10-case-studies/).
 
 ### 🎥 Recommended Tutorials
 
@@ -434,7 +438,7 @@ This guide is structured to take you from fundamentals to advanced concepts over
    - Understand the repository structure
    - Get familiar with the learning objectives
 
-2. **Architecture Patterns** (`architecture-patterns/`)
+2. **Architecture Patterns** (`01-architecture-patterns/`)
 
    - Monolithic vs Microservices
    - Layered Architecture
@@ -444,7 +448,7 @@ This guide is structured to take you from fundamentals to advanced concepts over
 
    **Practice**: Draw diagrams for each pattern, identify use cases
 
-3. **Databases** (`databases/`)
+3. **Databases** (`02-databases/`)
 
    - SQL vs NoSQL fundamentals
    - CAP theorem
@@ -455,12 +459,12 @@ This guide is structured to take you from fundamentals to advanced concepts over
 
 ### Week 2: Communication & Storage
 
-1. **API Gateways** (`api-gateways/`)
+1. **API Gateways** (`03-api-gateways/`)
    - API Gateway patterns
    - Rate limiting
    - Authentication/Authorization
    - Request routing
-2. **Caching** (`caching/`)
+2. **Caching** (`04-caching/`)
 
    - Cache strategies (LRU, LFU, TTL)
    - Cache invalidation
@@ -477,7 +481,7 @@ This guide is structured to take you from fundamentals to advanced concepts over
 
 **Goal**: Master distributed system communication
 
-1. **Microservices** (`microservices/`)
+1. **Microservices** (`05-microservices/`)
 
    - Service decomposition
    - Inter-service communication (REST, gRPC, Message queues)
@@ -489,7 +493,7 @@ This guide is structured to take you from fundamentals to advanced concepts over
 
 ### Week 4: Scalability Techniques
 
-1. **Scalability** (`scalability/`)
+1. **Scalability** (`06-scalability/`)
 
    - Horizontal vs Vertical scaling
    - Load balancing strategies
@@ -505,7 +509,7 @@ This guide is structured to take you from fundamentals to advanced concepts over
 
 ### Week 5: Infrastructure & Deployment
 
-1. **Infrastructure** (`infrastructure/`)
+1. **Infrastructure** (`07-infrastructure/`)
    - Cloud computing concepts (AWS, GCP, Azure)
    - Containerization (Docker)
    - Orchestration (Kubernetes)
@@ -521,12 +525,12 @@ This guide is structured to take you from fundamentals to advanced concepts over
 
 ### Week 6: Monitoring & Security
 
-1. **Observability** (`observability/`)
+1. **Observability** (`08-observability/`)
    - Logging strategies
    - Metrics and monitoring (Prometheus, Grafana)
    - Distributed tracing
    - Alerting best practices
-2. **Security** (`security/`)
+2. **Security** (`09-security/`)
 
    - Authentication mechanisms (OAuth, JWT)
    - Authorization (RBAC, ABAC)
@@ -544,7 +548,7 @@ This guide is structured to take you from fundamentals to advanced concepts over
 
 **Goal**: Apply knowledge to real systems
 
-1. **Case Studies** (`case-studies/`)
+1. **Case Studies** (`10-case-studies/`)
 
    - Study each case thoroughly
    - Common systems to expect:
@@ -570,7 +574,7 @@ This guide is structured to take you from fundamentals to advanced concepts over
 
 ### Week 9-10: Interview Practice
 
-1. **Interviews** (`interviews/`)
+1. **Interviews** (`11-interviews/`)
    - Review common interview questions
    - Practice whiteboarding
    - Time yourself (45-60 minutes per design)
@@ -749,10 +753,10 @@ See [LICENSE](./LICENSE) file for details.
 
 ```bash
 # Navigate to specific topic
-cd api-gateways/
-cd caching/
-cd scalability/
-cd security/
+cd 03-api-gateways/
+cd 04-caching/
+cd 06-scalability/
+cd 09-security/
 
 # View documentation
 cd docs/
